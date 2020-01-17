@@ -1,0 +1,193 @@
+
+$black:#050b27;
+$blue:#4687f0;
+$yellow:#fdd460;
+$grey:#9b9da8;
+
+
+
+/*--------------------公共样式-----------------------------*/
+html, body, div, header, section, article, footer, p, span, a, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, form, button, input, textarea, select, hr, legend, fieldset {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box; /* Safari */
+  -moz-box-sizing: border-box; /* Firefox */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-text-size-adjust: 100%;
+  -webkit-user-select: none;
+  user-select: none;
+  &.can-selected{
+    -webkit-user-select: text !important;
+    user-select: text !important;
+  }
+}
+
+// 添加可以选择的css
+.can-selected{
+  div, header, section, article, footer, p, span, a, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, form, button, input, textarea, select, hr, legend, fieldset {
+    -webkit-user-select: auto !important;
+    user-select: auto !important;
+  }
+}
+
+html,body {
+  font: 16px  "Hiragino Sans GB", "微软雅黑", "microsoft yahei", Arial, Helvetica, Arial, sans-serif;
+  font-weight: 300 !important;
+  line-height: 1;
+  background: #fff;
+  color:#050b27;
+  height:100%;
+}
+::-webkit-scrollbar{
+　display:none
+}
+body{
+  overflow-y:auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+input, textarea, select {
+font: 16px "pingFangSC", "Hiragino Sans GB", "微软雅黑", "microsoft yahei", Arial, Helvetica, Arial, sans-serif;
+  -webkit-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  -webkit-appearance: none;
+}
+
+textarea {
+  resize: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+em, i {
+  font-style: normal;
+}
+
+li, ol {
+  list-style: none;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+
+/*----------------------适配-----------------------------------*/
+@media screen and (min-width: 250px) {
+  html {
+    font-size: 82%;
+  }
+}
+
+@media screen and (min-width: 280px) {
+  html {
+    font-size: 92%;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 106.6666%;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 120%;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 125%;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 133.3333%;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 138%;
+  }
+}
+
+@media screen and (min-width: 440px) {
+  html {
+    font-size: 146.6666%;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 160%;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  html {
+    font-size: 173.3333%;
+  }
+}
+
+@media screen and (min-width: 560px) {
+  html {
+    font-size: 186.6666%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 200%;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 213.3333%;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  html {
+    font-size: 226.6666%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 240%;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  html {
+    font-size: 253.3333%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 266.6666%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 400%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  html {
+    font-size: 426.6666%;
+  }
+}
+
